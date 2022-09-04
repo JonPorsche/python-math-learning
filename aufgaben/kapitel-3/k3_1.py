@@ -13,10 +13,11 @@ def divide(a, b):
 def calc(a, b):
     if b == 0:
         return print("Nenner darf nicht gleich 0 sein!")
-    return divide(multiply(a, b), add(a, b))
+    else:
+        c = divide(multiply(a, b), add(a, b))
+        print("Ergebnis = ", c)
 
-a = 4
-b = 98.98
-c = calc(a, b)
+a = float(input("a: "))
+b = float(input("b: "))
+calc(a, b)
 
-print("Ergebnis = ", c)
