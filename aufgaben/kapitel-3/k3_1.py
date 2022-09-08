@@ -11,7 +11,7 @@ def divide(a, b):
 
 
 def calc(a, b):
-    if b == 0:
+    if (a + b) == 0:
         return print("Nenner darf nicht gleich 0 sein!")
     else:
         c = divide(multiply(a, b), add(a, b))
