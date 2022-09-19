@@ -5,4 +5,7 @@
     <orderEntry type="jdk" jdkName="Remote Python 3.8.13 Docker (theodorvendelin/python-math-learning:v1.0)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
 </module>
