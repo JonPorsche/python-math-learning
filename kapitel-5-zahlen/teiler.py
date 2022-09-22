@@ -9,7 +9,7 @@ def berechne_teiler(zahl):
     return teiler
 
 
-# Hauptprogram
+# Hauptprogramm
 z1 = int(input())
 z2 = int(input())
 print("Teiler von", z1, "=", berechne_teiler(z1))
