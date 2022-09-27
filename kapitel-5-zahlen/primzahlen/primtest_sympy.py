@@ -11,8 +11,8 @@ from sympy import isprime
 # n=23209   #Noll 1979
 # n=44497   #Nelson & Slowinski 1979
 # n=86243   #Slowinski 1982
-n = 132049  # Slowinski 1983
-# n=24036583 #Findley 2004
+# n = 132049  # Slowinski 1983
+n = 24036583  # Findley 2004
 # n=32582657 #Cooper, Boone 2006
 M = 2 ** n - 1  # Mersenne-Primzahl
 print("Ist die Zahl\n", M, "\nmit", len(str(M)), "Stellen eine Primzahl?")
