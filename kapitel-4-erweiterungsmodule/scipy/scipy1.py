@@ -4,7 +4,7 @@ from scipy.optimize import fsolve, newton
 
 
 def f(x):
-    return x ** 2 + 10 * x - 100
+    return x ** 2 - 9
 
 
 # Nullstelle berechnen
