@@ -12,7 +12,9 @@ def a(k):
     # return k**3/3**k
     # return (k + 1 / k ** 2 + 3 * k) ** 2
     # return k / 2 ** k
-    return 2 ** k / factorial(k)
+    # return 2 ** k / factorial(k)
+    # return 3 ** k / k ** k
+    return k ** 5 / factorial(k)
 
 
 QK = limit(abs(a(n + 1) / a(n)), n, oo)  # <1
