@@ -2,6 +2,6 @@
 from sympy import *
 
 n = symbols('n')
-an = 5 * (1 - 1 / (2 ** n))
+an = n ** 2 / (1 - n ** 2)
 ga = limit(an, n, oo)
 print("Grenzwert von %s ist %3.2f" % (an, ga))

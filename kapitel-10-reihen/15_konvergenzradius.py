@@ -11,6 +11,9 @@ def a(n):
     # return 1/factorial(2*n+1) #Sinushyperbolikus
     # return 1/factorial(2*n)   #Cosinushyperbolikus
     # return (-1)**n/(2*n+1)    #Arkustangens |x|<1
+    # return n ** 2
+    # return factorial(n) / factorial(2 * n)
+    #return (x / 2) ** n
 
 
 R = limit(abs(a(n) / a(n + 1)), n, oo)
